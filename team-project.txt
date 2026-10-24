@@ -1,0 +1,8 @@
+Experiment 5: Team Collaboration
+
+Project: CDD Lab Report
+Branching strategy: Feature Branch Workflow
+
+Team members can develop changes on separate branches.
+Pull requests are used to review changes before merging.
+GitHub supports collaborative development and version control.
