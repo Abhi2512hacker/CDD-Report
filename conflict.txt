@@ -1,1 +1,1 @@
-This line is from main branch version
+Conflict resolved by combining both changes
