@@ -1,0 +1,28 @@
+name: CDD Lab Continuous Integration
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display repository information
+        run: |
+          echo "CDD Lab - Experiment 6"
+          echo "Continuous Integration Workflow"
+          echo "Repository checked out successfully"
+
+      - name: Verify Git
+        run: git --version
+
+      - name: List repository files
+        run: ls -la
